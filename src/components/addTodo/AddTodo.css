@@ -1,0 +1,46 @@
+fieldset {
+    border: none;
+  }
+
+.form-container {
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    position: relative;
+    background-color: #141d41d4;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+  }
+
+.label {
+    display: none;
+}
+
+.form-input-field {
+    padding: 1rem 0.5rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    border-style: none;
+}
+  
+.form__submit-btn {
+    position: absolute;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    right: 2rem;
+    bottom: -1.4rem;
+    background-color: rgb(255, 255, 255);
+    color: #2f385b;
+    border: #2f385b solid 0.1rem;
+}
+
+@media all and (min-width: 560px) {
+    .form-input-field {
+        font-size: 1.5rem;
+      }
+
+    .form__submit-btn {
+        font-size: 1.2rem;
+      }         
+  }  

@@ -1,0 +1,54 @@
+li {
+    border-radius: 1rem;
+}
+
+.todo-list__item {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.todo-list__item-info {
+    padding: 1.4rem 1rem;
+    width: 100%;
+}
+
+.not-done {
+    background-color: #ffffff;
+}
+
+.done {
+    color: rgba(174, 174, 174, 0.536);
+    background-color: #e7e9edee;
+}
+
+.done .todo-list__item-info {
+    font-style: italic;
+    text-decoration: line-through;
+  }
+
+.todo-list__item__remove-btn {
+    margin: 1.5rem 0.5rem;
+    background-color:#2f385b;
+    color: white;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 1rem;
+  }
+
+  @media all and (min-width: 560px) {
+    .todo-list__item,
+    .todo-list__item__remove-btn
+    {
+      font-size: 1.2rem;
+    }
+  
+    .todo-list__item-heading {
+      font-size: 2rem;
+    }
+
+    .todo-list__item__remove-btn {
+      margin: 2rem;
+    }
+  }  

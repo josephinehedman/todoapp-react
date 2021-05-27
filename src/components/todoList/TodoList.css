@@ -1,0 +1,13 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.not-done {
+    order: -1;
+}
+
+.done {
+    order: 2;
+}

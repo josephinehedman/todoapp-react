@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render the heading (by matching snapshot) 1`] = `
+<header
+  className="header"
+>
+  <h1
+    className="header__heading"
+  >
+    Todo List
+  </h1>
+</header>
+`;
