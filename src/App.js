@@ -5,7 +5,7 @@ import Header from './components/header/Header'
 import TodoList from './components/todoList/TodoList';
 import AddTodo from './components/addTodo/AddTodo';
 
-function App() {
+const App = () => {
 
   const [todoList, setTodoList] = useState([]);
 
