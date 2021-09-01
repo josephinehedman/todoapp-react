@@ -2,6 +2,8 @@
 
 This is a simple todo-app created with create-react-app. It stores the todos in the state as an array, meaning that everytime the browser is reloaded, the todos dissapears. It was created during my bootcamp at salt as an assignment. It was actually my very first app created with react.
 
+You can check it out here --> https://josephinehedman.netlify.app/todo/
+
 ## Available Scripts
 
 In the project directory, you can run:
